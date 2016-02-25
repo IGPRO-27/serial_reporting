@@ -257,21 +257,13 @@
             </xpath>
         </template>
 
-        <!-- <template id="project_soulco_report_picking_inherit" inherit_id="stock.report_picking"> -->
-        <!--   <xpath expr="//table[@class='table table-condensed'][3]//thead//tr//th[3]" position="after"> -->
-        <!-- 	<th>Numéro de serie</th> -->
-        <!--   </xpath> -->
-        <!--   <xpath expr="//tr[@t-foreach='o.move_lines']//t//td[3]" position="after"> -->
-        <!-- 	<td> -->
-        <!-- 	  <span t-field="move.lot_ids.name"/> -->
-        <!-- 	</td> -->
-        <!--   </xpath> -->
-        <!--   <xpath expr="//tr[@t-foreach='o.pack_operation_ids']//td[3]" position="after"> -->
-        <!-- 	<td> -->
-        <!-- 	  <span t-field="pack_operation.lot_id.name"/> -->
-        <!-- 	</td> -->
-        <!--   </xpath> -->
-        <!-- </template> -->
-
+        <!-- translation -->
+        <template id="serial_report_picking">
+            <t t-call="report.html_container">
+                <t t-foreach="doc_ids" t-as="doc_id">
+                    <t t-raw="translate_doc(doc_id, doc_model, 'partner_id.lang', 'serial_reporting.project_soulco_report_picking_inherit')"/>
+                </t>
+            </t>
+        </template>
     </data>
 </openerp>

@@ -1,0 +1,502 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* serial_reporting
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 8.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-02-25 09:10+0000\n"
+"PO-Revision-Date: 2016-02-25 09:10+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: serial_reporting
+#: view:website:serial_reporting.soulco_custom_footer
+msgid "A.I No.:"
+msgstr ""
+
+#. module: serial_reporting
+#: view:website:account.report_invoice_document
+msgid "AI   :"
+msgstr ""
+
+#. module: serial_reporting
+#: view:website:sale.report_saleorder_document
+#: view:website:stock.report_picking
+msgid "AI :"
+msgstr ""
+
+#. module: serial_reporting
+#: view:website:purchase.report_purchaseorder_document
+msgid "AI:"
+msgstr ""
+
+#. module: serial_reporting
+#: model:ir.model,name:serial_reporting.model_report_paperformat
+msgid "Allows customization of a report."
+msgstr ""
+
+#. module: serial_reporting
+#: view:website:account.report_invoice_document
+msgid "Amount"
+msgstr ""
+
+#. module: serial_reporting
+#: view:website:purchase.report_purchaseorder_document
+msgid "Arrêtée la présente facture à la somme de :"
+msgstr ""
+
+#. module: serial_reporting
+#: view:website:account.report_invoice_document
+#: view:website:sale.report_saleorder_document
+msgid "Arrêtée la présente facture à la somme de:"
+msgstr ""
+
+#. module: serial_reporting
+#: view:website:serial_reporting.soulco_custom_footer
+msgid "C.B No.:"
+msgstr ""
+
+#. module: serial_reporting
+#: view:website:account.report_invoice_document
+msgid "Cancelled Invoice"
+msgstr ""
+
+#. module: serial_reporting
+#: field:res.company,capital_social:0
+msgid "Capital social"
+msgstr ""
+
+#. module: serial_reporting
+#: view:website:serial_reporting.soulco_custom_footer
+msgid "Capital social:"
+msgstr ""
+
+#. module: serial_reporting
+#: view:website:account.report_invoice_document
+msgid "Comment:"
+msgstr ""
+
+#. module: serial_reporting
+#: view:website:stock.report_picking
+msgid "Commitment Date"
+msgstr ""
+
+#. module: serial_reporting
+#: model:ir.model,name:serial_reporting.model_res_company
+msgid "Companies"
+msgstr ""
+
+#. module: serial_reporting
+#: view:website:stock.report_picking
+msgid "Customer Address:"
+msgstr ""
+
+#. module: serial_reporting
+#: view:website:account.report_invoice_document
+msgid "Customer Code:"
+msgstr ""
+
+#. module: serial_reporting
+#: view:website:sale.report_saleorder_document
+msgid "Date Ordered:"
+msgstr ""
+
+#. module: serial_reporting
+#: view:website:purchase.report_purchaseorder_document
+msgid "Date Req."
+msgstr ""
+
+#. module: serial_reporting
+#: view:website:stock.report_picking
+msgid "Delivery Address:"
+msgstr ""
+
+#. module: serial_reporting
+#: view:website:account.report_invoice_document
+#: view:website:sale.report_saleorder_document
+msgid "Description"
+msgstr ""
+
+#. module: serial_reporting
+#: view:website:account.report_invoice_document
+msgid "Description:"
+msgstr ""
+
+#. module: serial_reporting
+#: view:website:purchase.report_purchaseorder_document
+msgid "Designation"
+msgstr ""
+
+#. module: serial_reporting
+#: view:website:stock.report_picking
+msgid "Destination"
+msgstr ""
+
+#. module: serial_reporting
+#: view:website:sale.report_saleorder_document
+msgid "Disc.(%)"
+msgstr ""
+
+#. module: serial_reporting
+#: view:website:account.report_invoice_document
+msgid "Discount (%)"
+msgstr ""
+
+#. module: serial_reporting
+#: view:website:account.report_invoice_document
+msgid "Draft Invoice"
+msgstr ""
+
+#. module: serial_reporting
+#: view:website:serial_reporting.soulco_custom_footer
+msgid "Fax:"
+msgstr ""
+
+#. module: serial_reporting
+#: view:website:account.report_invoice_document
+msgid "Fiscal Position Remark:"
+msgstr ""
+
+#. module: serial_reporting
+#: model:ir.model,name:serial_reporting.model_account_invoice
+#: view:website:account.report_invoice_document
+msgid "Invoice"
+msgstr ""
+
+#. module: serial_reporting
+#: view:website:account.report_invoice_document
+msgid "Invoice Date:"
+msgstr ""
+
+#. module: serial_reporting
+#: view:website:sale.report_saleorder_document
+msgid "Invoice address:"
+msgstr ""
+
+#. module: serial_reporting
+#: view:website:sale.report_saleorder_document
+msgid "Invoice and shipping address:"
+msgstr ""
+
+#. module: serial_reporting
+#: view:website:serial_reporting.soulco_custom_footer
+msgid "N.I.F No.:"
+msgstr ""
+
+#. module: serial_reporting
+#: view:website:serial_reporting.soulco_custom_footer
+msgid "N.I.S No.:"
+msgstr ""
+
+#. module: serial_reporting
+#: view:website:account.report_invoice_document
+msgid "NIF  :"
+msgstr ""
+
+#. module: serial_reporting
+#: view:website:sale.report_saleorder_document
+#: view:website:stock.report_picking
+msgid "NIF :"
+msgstr ""
+
+#. module: serial_reporting
+#: view:website:purchase.report_purchaseorder_document
+msgid "NIF:"
+msgstr ""
+
+#. module: serial_reporting
+#: view:website:purchase.report_purchaseorder_document
+msgid "Net Price"
+msgstr ""
+
+#. module: serial_reporting
+#: view:website:stock.report_picking
+msgid "Numéro de serie"
+msgstr ""
+
+#. module: serial_reporting
+#: view:website:account.report_invoice_document
+#: view:website:purchase.report_purchaseorder_document
+#: view:website:sale.report_saleorder_document
+msgid "N°"
+msgstr ""
+
+#. module: serial_reporting
+#: view:website:stock.report_picking
+msgid "N°:"
+msgstr ""
+
+#. module: serial_reporting
+#: view:website:stock.report_picking
+msgid "Order (Origin)"
+msgstr ""
+
+#. module: serial_reporting
+#: view:website:purchase.report_purchaseorder_document
+msgid "Order Date:"
+msgstr ""
+
+#. module: serial_reporting
+#: view:website:sale.report_saleorder_document
+msgid "Order N°"
+msgstr ""
+
+#. module: serial_reporting
+#: view:website:account.report_invoice_document
+msgid "PRO-FORMA"
+msgstr ""
+
+#. module: serial_reporting
+#: view:website:account.report_invoice_document
+#: view:website:sale.report_saleorder_document
+msgid "Payment Term:"
+msgstr ""
+
+#. module: serial_reporting
+#: view:website:sale.report_saleorder_document
+msgid "Price"
+msgstr ""
+
+#. module: serial_reporting
+#: view:website:stock.report_picking
+msgid "Product"
+msgstr ""
+
+#. module: serial_reporting
+#: model:ir.model,name:serial_reporting.model_purchase_order
+msgid "Purchase Order"
+msgstr ""
+
+#. module: serial_reporting
+#: view:website:purchase.report_purchaseorder_document
+msgid "Purchase Order Confirmation N°"
+msgstr ""
+
+#. module: serial_reporting
+#: view:website:purchase.report_purchaseorder_document
+msgid "Qty"
+msgstr ""
+
+#. module: serial_reporting
+#: view:website:account.report_invoice_document
+#: view:website:sale.report_saleorder_document
+#: view:website:stock.report_picking
+msgid "Quantity"
+msgstr ""
+
+#. module: serial_reporting
+#: view:website:sale.report_saleorder_document
+msgid "Quotation Date:"
+msgstr ""
+
+#. module: serial_reporting
+#: view:website:sale.report_saleorder_document
+msgid "Quotation N°"
+msgstr ""
+
+#. module: serial_reporting
+#: view:website:serial_reporting.soulco_custom_footer
+msgid "R.C No.:"
+msgstr ""
+
+#. module: serial_reporting
+#: view:website:account.report_invoice_document
+#: view:website:purchase.report_purchaseorder_document
+#: view:website:sale.report_saleorder_document
+#: view:website:stock.report_picking
+msgid "RC N°:"
+msgstr ""
+
+#. module: serial_reporting
+#: view:website:account.report_invoice_document
+msgid "Ref Client   :"
+msgstr ""
+
+#. module: serial_reporting
+#: view:website:sale.report_saleorder_document
+#: view:website:stock.report_picking
+msgid "Ref Client :"
+msgstr ""
+
+#. module: serial_reporting
+#: view:website:account.report_invoice_document
+msgid "Ref L"
+msgstr ""
+
+#. module: serial_reporting
+#: view:website:account.report_invoice_document
+msgid "Ref S"
+msgstr ""
+
+#. module: serial_reporting
+#: view:website:purchase.report_purchaseorder_document
+msgid "Ref client:"
+msgstr ""
+
+#. module: serial_reporting
+#: view:website:purchase.report_purchaseorder_document
+#: view:website:sale.report_saleorder_document
+msgid "Reference L"
+msgstr ""
+
+#. module: serial_reporting
+#: view:website:purchase.report_purchaseorder_document
+#: view:website:sale.report_saleorder_document
+msgid "Reference S"
+msgstr ""
+
+#. module: serial_reporting
+#: view:website:account.report_invoice_document
+msgid "Reference:"
+msgstr ""
+
+#. module: serial_reporting
+#: view:website:account.report_invoice_document
+msgid "Refund"
+msgstr ""
+
+#. module: serial_reporting
+#: view:website:purchase.report_purchaseorder_document
+msgid "Request for Quotation N°"
+msgstr ""
+
+#. module: serial_reporting
+#: view:website:stock.report_picking
+msgid "Réf.S"
+msgstr ""
+
+#. module: serial_reporting
+#: model:ir.model,name:serial_reporting.model_sale_order
+msgid "Sales Order"
+msgstr ""
+
+#. module: serial_reporting
+#: view:website:sale.report_saleorder_document
+msgid "Salesperson:"
+msgstr ""
+
+#. module: serial_reporting
+#: view:website:stock.report_picking
+msgid "Scheduled Date"
+msgstr ""
+
+#. module: serial_reporting
+#: view:website:sale.report_saleorder_document
+msgid "Shipping address:"
+msgstr ""
+
+#. module: serial_reporting
+#: view:website:serial_reporting.soulco_custom_footer
+msgid "Siège social:"
+msgstr ""
+
+#. module: serial_reporting
+#: view:website:stock.report_picking
+msgid "Source"
+msgstr ""
+
+#. module: serial_reporting
+#: view:website:account.report_invoice_document
+msgid "Source:"
+msgstr ""
+
+#. module: serial_reporting
+#: view:website:stock.report_picking
+msgid "State"
+msgstr ""
+
+#. module: serial_reporting
+#: view:website:stock.report_picking
+msgid "Supplier Address:"
+msgstr ""
+
+#. module: serial_reporting
+#: view:website:account.report_invoice_document
+msgid "Supplier Invoice"
+msgstr ""
+
+#. module: serial_reporting
+#: view:website:account.report_invoice_document
+msgid "Supplier Refund"
+msgstr ""
+
+#. module: serial_reporting
+#: view:website:account.report_invoice_document
+msgid "TIN:"
+msgstr ""
+
+#. module: serial_reporting
+#: view:website:account.report_invoice_document
+#: view:website:purchase.report_purchaseorder_document
+#: view:website:sale.report_saleorder_document
+msgid "Taxes"
+msgstr ""
+
+#. module: serial_reporting
+#: view:website:serial_reporting.soulco_custom_footer
+msgid "Tel:"
+msgstr ""
+
+#. module: serial_reporting
+#: view:website:account.report_invoice_document
+#: view:website:sale.report_saleorder_document
+msgid "Timbre"
+msgstr ""
+
+#. module: serial_reporting
+#: view:website:account.report_invoice_document
+#: view:website:sale.report_saleorder_document
+msgid "Total"
+msgstr ""
+
+#. module: serial_reporting
+#: view:website:account.report_invoice_document
+#: view:website:sale.report_saleorder_document
+msgid "Total Timbre"
+msgstr ""
+
+#. module: serial_reporting
+#: view:website:account.report_invoice_document
+#: view:website:sale.report_saleorder_document
+msgid "Total Without Taxes"
+msgstr ""
+
+#. module: serial_reporting
+#: view:website:account.report_invoice_document
+#: view:website:purchase.report_purchaseorder_document
+#: view:website:sale.report_saleorder_document
+msgid "Unit Price"
+msgstr ""
+
+#. module: serial_reporting
+#: view:website:sale.report_saleorder_document
+#: view:website:stock.report_picking
+msgid "VAT:"
+msgstr ""
+
+#. module: serial_reporting
+#: view:website:purchase.report_purchaseorder_document
+msgid "Validated By:"
+msgstr ""
+
+#. module: serial_reporting
+#: view:website:stock.report_picking
+msgid "Warehouse Address:"
+msgstr ""
+
+#. module: serial_reporting
+#: view:website:purchase.report_purchaseorder_document
+msgid "Your Order Reference"
+msgstr ""
+
+#. module: serial_reporting
+#: view:website:sale.report_saleorder_document
+msgid "Your Reference:"
+msgstr ""
+

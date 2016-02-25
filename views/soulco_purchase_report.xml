@@ -149,5 +149,13 @@
                 <t t-call="serial_reporting.soulco_custom_footer" />
             </xpath>
         </template>
+        <!-- translation -->
+        <template id="serial_report_account_purchase">
+            <t t-call="report.html_container">
+                <t t-foreach="doc_ids" t-as="doc_id">
+                    <t t-raw="translate_doc(doc_id, doc_model, 'partner_id.lang', 'serial_reporting.serial_purchase_order_report')"/>
+                </t>
+            </t>
+        </template>
     </data>
 </openerp>

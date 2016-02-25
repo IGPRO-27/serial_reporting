@@ -66,7 +66,7 @@ class SoulcoSettings(models.Model):
 
     def _update_bottom_margin(self):
         euro_format = self.env['report.paperformat'].search([('name','=','European A4')])
-        return euro_format.inverse({'margin_bottom':45})
+        return euro_format.inverse({'margin_bottom':37})
 
     def _update_header_line(self):
         euro_format = self.env['report.paperformat'].search([('name','=','European A4')])
